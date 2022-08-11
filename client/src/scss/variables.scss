@@ -1,0 +1,45 @@
+$main-palette:(50:#f8f7e8,
+  100:#f8f2be,
+  200:#f5e878,
+  500:#F2DF3A,
+  600:#f0cc57,
+  700:#f3c326,
+  900:#b9881d,
+);
+
+@function main-palette($key: $main-palette) {
+  @return map-get($main-palette, $key)
+}
+
+$accent-palette:(50:#eff6fa,
+  100:#ade1fc,
+  200:#70c9f5,
+  500:#3AB4F2,
+  700:#1b76a3,
+  900:#0a3246,
+);
+
+
+@function accent-palette($key: $accent-palette) {
+  @return map-get($accent-palette, $key)
+}
+
+$gray-palette:(50: #FAFAFA,
+  100: #F5F5F5,
+  200: #EEEEEE,
+  300: #E0E0E0,
+  400: #BDBDBD,
+  500: #9E9E9E,
+  600: #757575,
+  700: #616161,
+  800: #424242,
+  900: #212121);
+
+@function gray-palette($key: $gray-palette) {
+  @return map-get($gray-palette, $key)
+}
+
+$gold-color:#FAC213;
+$rich-gold-color:#ffa600;
+$silver-color:#EFEFEF;
+$error-color: #EB1D36;

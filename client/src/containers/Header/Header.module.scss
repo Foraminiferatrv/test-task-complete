@@ -1,0 +1,9 @@
+@use '../../scss/variables.scss';
+
+.Header {
+  height: 80px;
+  background-color: variables.accent-palette(500);
+  padding: 10px 40px;
+  align-items: center;
+  display: flex;
+}

@@ -1,0 +1,63 @@
+@use '../../../scss/variables.scss';
+
+.HorsePosition {
+  max-width: 1000px;
+  width: 100%;
+  height: 60px;
+  background-color: variables.main-palette(200);
+  border-radius: 12px;
+  margin-bottom: 10px;
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 1.4em;
+  display: flex;
+  text-align: center;
+
+  .HorsePlace {
+    border-radius: 6px 0 0 6px;
+    color: variables.gray-palette(800);
+    background-color: variables.gray-palette(300);
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .HorseName {
+    color: variables.gray-palette(800);
+    background-color: variables.main-palette(700);
+    border-radius: 0 13px 13px 0;
+    padding-left: 15px;
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .HorseDistance {
+    padding-left: 90px;
+    color: variables.gray-palette(800);
+    width: 55%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  span {
+    margin-right: 60px;
+  }
+}
+
+.FirstPlace {
+  background-color: variables.$gold-color;
+  border: 4px solid variables.$rich-gold-color;
+
+  .HorsePlace {
+    background-color: variables.main-palette(600);
+  }
+}
+
+.SecondPlace {
+  background-color: variables.gray-palette(400);
+  border: 4px solid variables.gray-palette(300);
+}

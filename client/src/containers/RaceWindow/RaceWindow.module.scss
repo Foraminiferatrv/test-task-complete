@@ -1,0 +1,18 @@
+@use '../../scss/variables.scss';
+
+.RaceWindow {
+  list-style: none;
+  margin: 0;
+  padding-top: 20px;
+  background-color: variables.main-palette(50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Skeleton {
+  padding-top: 20px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
